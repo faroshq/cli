@@ -24,7 +24,7 @@ kubectl krew install faros/faros faros/kcp-ws faros/kcp-kcp
 kubectl faros login
 
 # Create a workspace
-kubectl ws create my-workspace
+kubectl faros ws create my-workspace
 
 # List workspaces
 kubectl get ws
